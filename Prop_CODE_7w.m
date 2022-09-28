@@ -110,9 +110,9 @@ SimMod.Scan_cond = 'Normal';
                  % 'Invalid Condition'
 SimMod.Wlofs_num =    3+1; % number of center wavelength offset, default: 200+1
 SimMod.WlSep_num =    3+1; % number of pump pump wavelength separation, default: 210+1
-SimMod.Power_num =    0+1; % number of pump/signal power, 250+1
+SimMod.Power_num =    3+1; % number of pump/signal power, 250+1
 SimMod.Phase_num =  420+1; % number of signal phase, default: 820+1 for 2pi, 420+1 for pi
-SimMod.PropZ_num =   10+1; % number of propagate dz, default: 1011*4+1
+SimMod.PropZ_num =    0+1; % number of propagate dz, default: 1011*4+1
 SimMod.Len_Mul   =    0+1; % number of length multiplication 
 SimMod.Mod_type  = 'None'; % 'None' 'BPSK' 'QPSK' 
 SimMod.Noise_num =      0+SimMod.Phase_num; % number of additive white gaussian noise, default: 100+wPhase_num
